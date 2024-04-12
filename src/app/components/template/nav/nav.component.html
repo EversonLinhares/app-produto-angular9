@@ -13,11 +13,6 @@
                 </i>
                 Produtos
             </a>
-            <span *ngIf="(preco == 2500)" >
-                {{ preco | currency: 'BRL' }}
-            </span>
-            <input type="text" [(ngModel)]="nick">
-            <button class="mt-raisen-button" (click)="teste(nick)">clica!</button>
         </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content class="content">

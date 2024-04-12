@@ -9,14 +9,10 @@ export class NavComponent implements OnInit {
 
   constructor() { }
 
-  nick: string = "T";
-  preco: number = 2500;
 
   ngOnInit(): void {
   }
 
-  teste(nick: string) {
-    console.log("testando nick: "+ nick );
-  }
+
 
 }
